@@ -264,6 +264,9 @@
   align-items: baseline;
   flex-wrap: wrap;
 }
+.member{
+  max-width: 280px;
+}
 .team-member-one,
 .team-member-two,
 .team-member-three {
@@ -291,6 +294,7 @@
   font-size: 14px;
   margin: 0 20px;
   color: #8f8f8f;
+  margin-top: -10px;
 }
 // end team
 // start uslugi
@@ -489,22 +493,22 @@ p.line-three::after {
   background-color: #22a7f0;
 }
 .nov-16 {
-  background-image: url(../comp-help/images/wind.jpg);
+  background-image: url(../images/wind.jpg);
   width: 226px;
   height: 210px;
 }
 .nov-19 {
-  background-image: url(../comp-help/images/24h.jpg);
+  background-image: url(../images/24h.jpg);
   width: 226px;
   height: 210px;
 }
 .nov-21 {
-  background-image: url(../comp-help/images/mbr-gpt.jpg);
+  background-image: url(../images/mbr-gpt.jpg);
   width: 226px;
   height: 210px;
 }
 .nov-23 {
-  background-image: url(../comp-help/images/storejet.jpg);
+  background-image: url(../images/storejet.jpg);
   width: 226px;
   height: 210px;
 }
@@ -599,6 +603,9 @@ p.line-three::after {
 .contacts {
   color: #fff;
   font-family: "Open Sans", sans-serif;
+}
+.footer-item {
+  margin-top: 20px;
 }
 .footer__inner {
   display: flex;
@@ -776,6 +783,7 @@ p.line-three::after {
 // end contacts
 // start blog
 .blog-post {
+  margin: 0 10px;
   display: inline-block;
   max-width: 500px;
   & h2 {
@@ -820,6 +828,9 @@ p.line-three::after {
     font-size: 18px;
     color: #fff;
   }
+}
+.blog-post-btn:hover{
+  background-color: #569fcf;
 }
 // end blog
 // start uslugi

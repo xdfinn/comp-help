@@ -47,9 +47,13 @@
   .rectangle-bg {
     margin-left: 15px;
   }
-  .team-member-name,
-  .team-member-descr {
-    padding: 5px;
+}
+@media (max-width: 1050px){
+  .blog-posts{
+    column-count: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 @media (max-width: 825px) {
@@ -168,6 +172,11 @@
     }
   }
   @media (max-width: 550px) {
+    .blog-post-img {
+      max-width: 100%;
+      width: auto;
+      height: auto;
+    }
     .contacts-map iframe{
       max-width: 100%;
     }
@@ -195,6 +204,10 @@
     }
     .how-we-work-content-two {
       margin: 0 40px 0 40px;
+    }
+    .team-member-two,
+    .team-member-three{
+      margin-top: 20px;
     }
   }
   @media (max-width: 497px) {
@@ -258,6 +271,15 @@
   @media (max-width: 355px) {
     .text-404 {
       top: 314px;
+    }
+  }
+  @media (max-width: 346px){
+    .how-we-work-content{
+      max-width: 270px;
+    }
+    .how-we-work-content-three{
+      margin-left: -268px;
+      margin-top: 26px;
     }
   }
   @media (max-width: 320px) {
