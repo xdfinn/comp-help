@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Group 1
+User-agent: Yandex
+Allow: /
+
+# Group 2
+User-Agent: Googlebot
+Allow: /
+
+Host: https://xdfinn.github.io/comp-help/
+Sitemap: https://xdfinn.github.io/comp-help/sitemap.xml
