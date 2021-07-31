@@ -264,7 +264,7 @@
   align-items: baseline;
   flex-wrap: wrap;
 }
-.member{
+.member {
   max-width: 280px;
 }
 .team-member-one,
@@ -830,11 +830,15 @@ p.line-three::after {
     color: #fff;
   }
 }
-.blog-post-btn:hover{
+.blog-post-btn:hover {
   background-color: #569fcf;
 }
 // end blog
 // start uslugi
+// .uslugi-main-title{
+//   padding-top: 10px;
+//   font-family: "Open Sans", sans-serif;
+// }
 .uslugi-table {
   font-family: "Open Sans", sans-serif;
   margin-top: 35px;
@@ -864,7 +868,7 @@ p.line-three::after {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
 }
-.o-nas-text p{
+.o-nas-text p {
   text-indent: 15px;
 }
 // end o-nas
